@@ -22,6 +22,12 @@ module.exports = {
         description: 'Code snippets made easy.',
         tech: 'React',
         url: 'https://snpt.netlify.com/'
+      },
+      {
+        name: 'Blog',
+        description: 'by @Chetan',
+        tech: 'Vue',
+        url: 'https://chetanraj.in/blog/'
       }
     ]
   },

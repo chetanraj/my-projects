@@ -25,6 +25,7 @@ body {
 
 .card-container {
   margin: 1em;
+  box-shadow: rgba(20, 26, 40, 0.2) 0px 7px 12px;
 }
 
 .frame {
@@ -32,6 +33,25 @@ body {
   width: 400px;
   background-color: #111;
   border-radius: 4px 4px 0 0;
+}
+
+.top {
+  border-top: 2em solid #fff;
+  position: relative;
+  border-radius: 4px 4px 0 0;
+}
+
+.top:before {
+  display: block;
+  position: absolute;
+  content: '';
+  top: -1.25em;
+  left: .75em;
+  width: 0.5em;
+  height: 0.5em;
+  border-radius: 50%;
+  background-color: #f44;
+  box-shadow: 0 0 0 2px #f44, 1.25em 0 0 2px #fb5, 2.5em 0 0 2px #9b3;
 }
 
 .card {
@@ -42,5 +62,4 @@ body {
     border-radius: 0 0 4px 4px;
     font-size: 16px;
     line-height: 1.6;
-    box-shadow: rgba(20, 26, 40, 0.2) 0px 7px 12px;
 }

@@ -25,7 +25,9 @@ const Projects = ({ children }) => (
         {data.site.siteMetadata.projects.map(project => {
           return (
             <div className="card-container">
-              <div className="frame" />
+              <div className="frame">
+                <div className="top"></div>
+              </div>
               <div onClick={() => openProject(project.url)} className="card">
                 {project.name}
               </div>
