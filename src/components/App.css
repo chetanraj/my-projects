@@ -63,3 +63,11 @@ body {
     font-size: 16px;
     line-height: 1.6;
 }
+
+@media only screen and (max-device-width: 768px)  {
+  .card-container,
+  .frame,
+  .card {
+    width: 100%;
+  }
+}
