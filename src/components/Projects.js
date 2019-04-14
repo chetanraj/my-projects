@@ -26,7 +26,7 @@ const Projects = ({ children }) => (
           return (
             <div className="card-container">
               <div className="frame">
-                <div className="top"></div>
+                <div className="top" />
               </div>
               <div onClick={() => openProject(project.url)} className="card">
                 {project.name}
